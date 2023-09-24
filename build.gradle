@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.20'
+}
+
+dependencies {
+    compileOnly 'org.aspectj:aspectjrt:1.9.19'
+    compileOnly 'org.aspectj:aspectjweaver:1.9.19'
+
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.20'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.12.1'
+    implementation 'org.testng:testng:7.8.0'
+
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        google()
+        maven {
+            url 'https://repo.maven.apache.org/maven2/'
+        }
+        maven {
+            url "https://plugins.gradle.org/m2"
+        }
+        maven {
+            url "https://repo1.maven.org/maven2/"
+        }
+    }
+}

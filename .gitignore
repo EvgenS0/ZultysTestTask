@@ -1,0 +1,12 @@
+.idea/workspace.xml
+*.xml
+!/**/assembly.xml
+!/**/pom.xml
+!/**/*log4j2*.xml
+!/**/extent-config.xml
+tests/allure-results
+buid/
+target/
+.idea/
+*.iml
+*.log
