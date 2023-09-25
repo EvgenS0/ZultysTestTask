@@ -1,7 +1,9 @@
+Cypress
+Playwright
+Selenium
 TS
 TypeScript
-Cypress
 Python
 Java
+JS
 JavaScript
-Selenium

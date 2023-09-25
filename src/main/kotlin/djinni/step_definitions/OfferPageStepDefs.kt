@@ -10,7 +10,13 @@ class OfferPageStepDefs {
         val keywords = TXTReader().getListFromFile("keywords.txt")
         val text = offerPage.descriptionTest.text
         if (containsKeyword(text, keywords)) {
-            offerPage.applyBtn.click()
+            try {
+                offerPage.applyBtn.click()
+                offerPage.templateBtn.click()
+                offerPage.confirmBtn.click()
+            } catch (e: Exception) {
+                println(e.message)
+            }
         }
     }
 

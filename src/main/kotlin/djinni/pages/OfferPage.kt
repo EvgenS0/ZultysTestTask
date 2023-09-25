@@ -12,6 +12,9 @@ class OfferPage(private val driver: WebDriver) : BasePage(driver) {
     @FindBy(xpath = "//*[@class='jobs-post--action-btns']//button")
     lateinit var applyBtn: WebElement
 
-    @FindBy(id = "message")
-    lateinit var messageInput: WebElement
+    @FindBy(xpath = "//*[@class='table table-hover']/*/*[1]")
+    lateinit var templateBtn: WebElement
+
+    @FindBy(id = "job_apply")
+    lateinit var confirmBtn: WebElement
 }
