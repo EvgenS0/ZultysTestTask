@@ -1,9 +1,0 @@
-Cypress
-Playwright
-Selenium
-TS
-TypeScript
-Python
-Java
-JS
-JavaScript
