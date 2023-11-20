@@ -2,7 +2,7 @@
 <suite name="TestSuite">
     <test name="MyTest">
         <classes>
-            <class name="djinni.SendingCV"/>
+            <class name="test.ZultysTestTask"/>
         </classes>
     </test>
 </suite>
